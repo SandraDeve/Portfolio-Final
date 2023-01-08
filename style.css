@@ -1,0 +1,196 @@
+
+/*
+body {
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0%;
+}
+#navBar h1 {
+  display: flex;
+  width: 25%;
+  font-weight: 500;
+  justify-content:center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-color: bisque;
+ color: #F18946;
+ 
+}
+
+#navigation {
+  
+  display: flex;
+  width: 80%;
+  align-items: right;
+  margin: 0px 0%;
+  justify-content: space-evenly;
+  background-color: #F18946;
+  color: bisque;
+}
+
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+header {
+background-color: bisque;
+}
+*/
+
+.sectionone{
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch; 
+  justify-content: space-between;
+}
+
+.contenttwo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item{
+  border: 5px red;
+  flex-basis: calc(50%-1em);
+  display: flex;
+  align-items: flex-end;
+
+}
+
+
+.surf{
+  background-image: url("https://picsum.photos/id/237/200/300");
+}
+
+
+/*
+.about, 
+.Work,
+.ContactMe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: beige;
+  
+}
+.about h2,
+.Work h2,
+.ContactMe h2 {
+  flex:0 0 20%;
+  text-align:right;
+border-right: 4px solid black;
+
+}
+.About p,
+
+.ContactMe p
+ {
+  flex:0 0 70%;
+*/
+
+/*
+.title1 {
+
+ grid-column-start: 1;
+ grid-row-start: 1;
+  grid-area: titleone;
+  background-color:#F18946;
+  
+}
+.title2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-area: titletwo;
+ 
+
+  background-color: #F18946;
+  
+}
+.title3 {
+grid-column-start:1;
+grid-row-start: 3;
+  grid-area: titlethree;
+  
+  background-color: #F18946;
+
+}
+.contentone{
+  grid-template-columns: 2;
+  grid-template-rows: 1;
+  grid-area: contentone;
+  background-color: bisque;
+}
+.content2{
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+grid-area: contenttwo;
+background-color: bisque;
+}
+.content3{
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+grid-area: contentthree;
+background-color: bisque;
+}
+
+.pagesection {
+display: grid;
+height: 500px;
+width: 400px;
+grid-template-columns: 20% 80%;
+grid-template-rows: 25% 25% 25%;
+align-items: stretch;
+align-content:space-evenly;
+grid-template-areas: "title1 content1"
+"title2 content2"
+"title3 content3";
+}
+
+/*
+}
+.Container {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Surf Report" "LED Wall" "Calculator"
+  "Pastel Puzzels"
+  "Run Buddy";
+}
+
+
+/*
+ .container {
+  width: 80%;
+  margin: 0 auto;
+
+ }
+header {
+  background: #55d6aa;
+
+}
+
+
+
+
+/*
+.wraper
+display
+{
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
